@@ -4,50 +4,40 @@ nlu:
 - intent: greet
   examples: |
     - hey
-    - hello
-    - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
+    - hola
+    - necesito ayuda
+    - Hola
+    - como estas
+    - ayudame
+
 
 - intent: goodbye
   examples: |
     - cu
-    - good by
-    - cee you later
-    - good night
+    - gracias
+    - adios
+    - eso es todo
+    - hasta luego
+    - chao
     - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
+
 
 - intent: affirm
   examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
+    - si
+    - correcto
+    - por supuesto
+    - claro
+    - claro que si
+    - correcto
 
 - intent: deny
   examples: |
     - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
+    - NO
+    - incorrecto
+    - mal
+    - te equivocaste
 
 - intent: mood_great
   examples: |
