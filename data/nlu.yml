@@ -79,3 +79,21 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: feriados
+  examples: |
+    - que dias son feriado
+    - cuando no hay clases
+    - feriados
+    - dime los feriados
+    - dime cuando no hay clases
+    - quiero saber cuando no habra clases
+    - que dias son libres
+
+- intent: justificacion_falta
+  examples: |
+    - Como justifico una falta
+    - quiero faltar
+    - debo faltar
+    - voy a faltar
+

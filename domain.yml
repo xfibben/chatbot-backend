@@ -8,6 +8,8 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - feriados
+  - justificacion_falta
 
 responses:
   utter_greet:
@@ -28,6 +30,20 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+
+  utter_feriados:
+  - text: "los dias feriados seran: Lunes 09 Octubre: Día no laborable para el sector público
+Miércoles 01 Noviembre: Día de Todos los Santos
+Jueves 07 Diciembre: Día no laborable para el sector público
+Viernes 08 Diciembre: Día de la Inmaculada Concepción
+Sábado 09 Diciembre: Batalla de Ayacucho
+Lunes 25 Diciembre: Navidad
+Martes 26 Diciembre: Día no laborable para el sector público
+Lunes 01 Enero: Año Nuevo
+Martes 02 Enero: Día no laborable para el sector público"
+
+  utter_justificacion_falta:
+  - text: "llena el archivo con tus datos y enviacelo a tu asesor o docente."
 
 session_config:
   session_expiration_time: 60
