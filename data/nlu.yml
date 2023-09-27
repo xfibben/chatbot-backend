@@ -3,7 +3,10 @@ version: "3.1"
 nlu:
 - intent: greet
   examples: |
+    - buenas tardes
+    - buenos dias
     - hey
+    - ayuda
     - hola
     - necesito ayuda
     - Hola
@@ -13,13 +16,12 @@ nlu:
 
 - intent: goodbye
   examples: |
-    - cu
     - gracias
     - adios
     - eso es todo
     - hasta luego
     - chao
-    - bye
+
 
 
 - intent: affirm
