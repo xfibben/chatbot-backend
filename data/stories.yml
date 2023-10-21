@@ -28,3 +28,17 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
+- story: pedir horario divino
+  steps: 
+  - intent: horario
+  - action: utter_horario
+  - intent: divino
+  - action: utter_divino
+
+- story: pedir horario 70005
+  steps: 
+  - intent: horario
+  - action: utter_horario
+  - intent: corazon_jesus
+  - action: utter_corazon_jesus

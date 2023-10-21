@@ -77,8 +77,8 @@ nlu:
 
 - intent: bot_challenge
   examples: |
-    - are you a bot?
-    - are you a human?
+    - que eres?
+    - eres un robot?
     - am I talking to a bot?
     - am I talking to a human?
 
@@ -98,4 +98,25 @@ nlu:
     - quiero faltar
     - debo faltar
     - voy a faltar
+
+- intent: horario
+  examples: |
+    - Necesito el horario
+    - dame el horario
+    - horario
+    - quiero saber el horario
+    
+- intent: divino
+  examples: |
+    - Divino Meaestro
+    - la pre
+    - pre
+    - divino
+    - divino la pre
+- intent: corazon_jesus
+  examples: | 
+    - Corazon de Jesus
+    - corazon jesus
+    - 70005
+    - quistuñas
 

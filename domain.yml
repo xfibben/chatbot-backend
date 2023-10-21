@@ -10,6 +10,9 @@ intents:
   - bot_challenge
   - feriados
   - justificacion_falta
+  - horario
+  - divino
+  - corazon_jesus
 
 responses:
   utter_greet:
@@ -20,16 +23,16 @@ responses:
     image: "https://i.imgur.com/nGF1K8f.jpg"
 
   utter_did_that_help:
-  - text: "Did that help you?"
+  - text: "Te sirvio mi ayuda?"
 
   utter_happy:
-  - text: "Great, carry on!"
+  - text: "Genial!"
 
   utter_goodbye:
-  - text: "Bye"
+  - text: "Adios"
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  - text: "Soy Roboto"
 
   utter_feriados:
   - text: "los dias feriados seran: Lunes 09 Octubre: Día no laborable para el sector público
@@ -44,6 +47,20 @@ Martes 02 Enero: Día no laborable para el sector público"
 
   utter_justificacion_falta:
   - text: "llena el archivo con tus datos y enviacelo a tu asesor o docente."
+
+  utter_horario:
+  - text: "escoge tu colegio"
+    buttons: 
+    - title: "70005"
+      payload: "/divino"
+    - title: "Divino Maestro"
+      payload: "/corazon_jesus"
+
+  utter_divino: 
+  - text: "HOrario de divino maestro"
+
+  utter_corazon_jesus:
+  - text: "Horario de 70005"
 
 session_config:
   session_expiration_time: 60
