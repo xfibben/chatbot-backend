@@ -2,32 +2,20 @@ version: "3.1"
 
 stories:
 
-- story: happy path
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
+- story: saludo
+  steps: 
+  - intent: saludo
+  - action: utter_saludo
 
-- story: sad path 1
+- story: justificacion de falta
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
+  - intent: justificacion_falta
+  - action: utter_justificacion_falta
 
-- story: sad path 2
+- story: feriados
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+  - intent: feriados
+  - action: utter_feriados
 
 - story: pedir horario divino
   steps: 

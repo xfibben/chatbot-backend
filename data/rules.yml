@@ -2,12 +2,14 @@ version: "3.1"
 
 rules:
 
-- rule: Say goodbye anytime the user says goodbye
+- rule: decir adios cada vez que se diga adios
   steps:
-  - intent: goodbye
-  - action: utter_goodbye
+  - intent: adios
+  - action: utter_adios
 
-- rule: Say 'I am a bot' anytime the user challenges
+- rule: decir soy roboto cada vez que el usuario pregunte
   steps:
   - intent: bot_challenge
-  - action: utter_iamabot
+  - action: utter_bot_challenge
+
+

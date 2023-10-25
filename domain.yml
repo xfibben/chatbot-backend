@@ -1,12 +1,10 @@
 version: "3.1"
 
 intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
+  - saludo
+  - adios
+  - afirmar 
+  - denegar
   - bot_challenge
   - feriados
   - justificacion_falta
@@ -15,23 +13,14 @@ intents:
   - corazon_jesus
 
 responses:
-  utter_greet:
+  utter_saludo:
   - text: "Hola como puedo ayudarte?"
 
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
 
-  utter_did_that_help:
-  - text: "Te sirvio mi ayuda?"
+  utter_adios:
+  - text: "Espero haberte ayudado."
 
-  utter_happy:
-  - text: "Genial!"
-
-  utter_goodbye:
-  - text: "Adios"
-
-  utter_iamabot:
+  utter_bot_challenge:
   - text: "Soy Roboto"
 
   utter_feriados:

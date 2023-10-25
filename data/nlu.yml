@@ -1,7 +1,7 @@
 version: "3.1"
 
 nlu:
-- intent: greet
+- intent: saludo
   examples: |
     - buenas tardes
     - buenos dias
@@ -14,7 +14,7 @@ nlu:
     - ayudame
 
 
-- intent: goodbye
+- intent: adios
   examples: |
     - gracias
     - adios
@@ -24,7 +24,7 @@ nlu:
 
 
 
-- intent: affirm
+- intent: afirmar
   examples: |
     - si
     - correcto
@@ -33,7 +33,7 @@ nlu:
     - claro que si
     - correcto
 
-- intent: deny
+- intent: denegar
   examples: |
     - no
     - NO
@@ -41,46 +41,14 @@ nlu:
     - mal
     - te equivocaste
 
-- intent: mood_great
-  examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
 
-- intent: mood_unhappy
-  examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
 
 - intent: bot_challenge
   examples: |
     - que eres?
     - eres un robot?
-    - am I talking to a bot?
-    - am I talking to a human?
+    - con quien hablo?
+    - con quien estoy hablando?
 
 - intent: feriados
   examples: |
