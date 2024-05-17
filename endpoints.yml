@@ -12,6 +12,7 @@
 
 action_endpoint:
   url: "http://localhost:5055/webhook"
+  #post method: http://0.0.0.0:5005/webhooks/rest/webhook
 
 # Tracker store which is used to store the conversations.
 # By default the conversations are stored in memory.

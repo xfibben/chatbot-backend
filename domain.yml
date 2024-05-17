@@ -41,7 +41,7 @@ Martes 02 Enero: Día no laborable para el sector público"
   - text: "escoge tu colegio"
     buttons: 
     - title: "70005"
-      payload: "/divino"
+      payload: "/corazon_jesus"
     - title: "Divino Maestro"
       payload: "/corazon_jesus"
 
