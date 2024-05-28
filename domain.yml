@@ -9,8 +9,9 @@ intents:
   - feriados
   - justificacion_falta
   - horario
-  - divino
   - corazon_jesus
+  - guesc
+  - portenio
 
 responses:
   utter_saludo:
@@ -41,15 +42,20 @@ Martes 02 Enero: Día no laborable para el sector público"
   - text: "escoge tu colegio"
     buttons: 
     - title: "70005"
-      payload: "/corazon_jesus"
-    - title: "Divino Maestro"
-      payload: "/corazon_jesus"
+      payload: "/corazon_jesus_horario"
+    - title: "GUESC"
+      payload: "/guesc_horario"
+    - title: "Porteño"
+      payload: "/porteño_horario"
 
-  utter_divino: 
-  - text: "HOrario de divino maestro"
+  utter_corazon_jesus_horario: 
+  - text: "https://marketplace.canva.com/EAFsM_bCaAc/2/0/1600w/canva-horario-de-clase-sencillo-acuarela-colorido-pasteles-WvmJ0ctDXvI.jpg"
 
-  utter_corazon_jesus:
-  - text: "Horario de 70005"
+  utter_guesc_horario:
+  - text: "https://www.mundoprimaria.com/wp-content/uploads/2015/09/Horario-de-clases-con-dulces.png"
+
+  utter_porteño_horario:
+  - text: "https://img.freepik.com/vector-gratis/dibujado-mano-plantilla-horario-regreso-escuela_23-2149055653.jpg"
 
 session_config:
   session_expiration_time: 60

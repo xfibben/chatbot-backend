@@ -74,17 +74,27 @@ nlu:
     - horario
     - quiero saber el horario
     
-- intent: divino
+- intent: guesc
   examples: |
-    - Divino Meaestro
-    - la pre
-    - pre
-    - divino
-    - divino la pre
+    - guesc
+    - la unidad
+    - unidad
+    - gran unidad escolar san carlos
+    - san carlos
+    - carlos
+    - gran unidad
+
 - intent: corazon_jesus
   examples: | 
     - Corazon de Jesus
     - corazon jesus
     - 70005
     - quistuñas
+
+- intent: portenio
+  examples: |
+    - Porteño
+    - portenio
+    - colegio porteño
+    - escuela porteño
 
