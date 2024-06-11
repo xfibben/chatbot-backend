@@ -37,3 +37,8 @@ stories:
   - action: utter_horario
   - intent: portenio
   - action: utter_porteño_horario
+
+- story: encuesta
+  steps:
+  - intent: encuesta
+  - action: utter_encuesta

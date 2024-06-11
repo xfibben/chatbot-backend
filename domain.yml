@@ -49,13 +49,16 @@ Martes 02 Enero: Día no laborable para el sector público"
       payload: "/porteño_horario"
 
   utter_corazon_jesus_horario: 
-  - text: "https://marketplace.canva.com/EAFsM_bCaAc/2/0/1600w/canva-horario-de-clase-sencillo-acuarela-colorido-pasteles-WvmJ0ctDXvI.jpg"
+  - text: "horario Corazón de Jesús/"
 
   utter_guesc_horario:
-  - text: "https://www.mundoprimaria.com/wp-content/uploads/2015/09/Horario-de-clases-con-dulces.png"
+  - text: "horario GUESC"
 
   utter_porteño_horario:
-  - text: "https://img.freepik.com/vector-gratis/dibujado-mano-plantilla-horario-regreso-escuela_23-2149055653.jpg"
+  - text: "horario Porteño"
+
+  utter_encuesta:
+  - text: "https://forms.gle/HYNV8Zzki38UvUKp8"
 
 session_config:
   session_expiration_time: 60

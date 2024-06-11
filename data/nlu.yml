@@ -22,7 +22,17 @@ nlu:
     - hasta luego
     - chao
 
-
+- intent: encuesta
+  examples: |
+    - encuesta
+    - quiero hacer una encuesta
+    - quiero responder una encuesta
+    - quiero contestar
+    - quiero ayudar a hacer el chatbot
+    - quiero ayudar
+    - dame la encuesta
+    - dame el enlace de la encueesta
+    - Enueesta
 
 - intent: afirmar
   examples: |
