@@ -12,6 +12,7 @@ intents:
   - corazon_jesus
   - guesc
   - portenio
+  - encuesta
 
 responses:
   utter_saludo:
