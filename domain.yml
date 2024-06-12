@@ -59,7 +59,7 @@ Martes 02 Enero: Día no laborable para el sector público"
   - text: "horario Porteño"
 
   utter_encuesta:
-  - text: "https://forms.gle/HYNV8Zzki38UvUKp8"
+  - text: "https://forms.gle/phAArJXB1NxGg7W89"
 
 session_config:
   session_expiration_time: 60
