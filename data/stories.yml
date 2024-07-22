@@ -17,16 +17,28 @@ stories:
   - intent: feriados
   - action: utter_feriados
 
-- story: pedir horario divino
+- story: pedir horario guesc
   steps: 
   - intent: horario
   - action: utter_horario
-  - intent: divino
-  - action: utter_divino
+  - intent: guesc
+  - action: utter_guesc_horario
 
 - story: pedir horario 70005
   steps: 
   - intent: horario
   - action: utter_horario
   - intent: corazon_jesus
-  - action: utter_corazon_jesus
+  - action: utter_corazon_jesus_horario
+
+- story: pedir horario porteño
+  steps: 
+  - intent: horario
+  - action: utter_horario
+  - intent: portenio
+  - action: utter_porteño_horario
+
+- story: encuesta
+  steps:
+  - intent: encuesta
+  - action: utter_encuesta

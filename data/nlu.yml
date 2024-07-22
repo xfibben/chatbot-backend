@@ -22,7 +22,17 @@ nlu:
     - hasta luego
     - chao
 
-
+- intent: encuesta
+  examples: |
+    - encuesta
+    - quiero hacer una encuesta
+    - quiero responder una encuesta
+    - quiero contestar
+    - quiero ayudar a hacer el chatbot
+    - quiero ayudar
+    - dame la encuesta
+    - dame el enlace de la encueesta
+    - Enueesta
 
 - intent: afirmar
   examples: |
@@ -74,17 +84,27 @@ nlu:
     - horario
     - quiero saber el horario
     
-- intent: divino
+- intent: guesc
   examples: |
-    - Divino Meaestro
-    - la pre
-    - pre
-    - divino
-    - divino la pre
+    - guesc
+    - la unidad
+    - unidad
+    - gran unidad escolar san carlos
+    - san carlos
+    - carlos
+    - gran unidad
+
 - intent: corazon_jesus
   examples: | 
     - Corazon de Jesus
     - corazon jesus
     - 70005
     - quistuñas
+
+- intent: portenio
+  examples: |
+    - Porteño
+    - portenio
+    - colegio porteño
+    - escuela porteño
 

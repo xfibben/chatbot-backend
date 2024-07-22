@@ -9,8 +9,10 @@ intents:
   - feriados
   - justificacion_falta
   - horario
-  - divino
   - corazon_jesus
+  - guesc
+  - portenio
+  - encuesta
 
 responses:
   utter_saludo:
@@ -41,15 +43,23 @@ Martes 02 Enero: Día no laborable para el sector público"
   - text: "escoge tu colegio"
     buttons: 
     - title: "70005"
-      payload: "/divino"
-    - title: "Divino Maestro"
-      payload: "/corazon_jesus"
+      payload: "/corazon_jesus_horario"
+    - title: "GUESC"
+      payload: "/guesc_horario"
+    - title: "Porteño"
+      payload: "/porteño_horario"
 
-  utter_divino: 
-  - text: "HOrario de divino maestro"
+  utter_corazon_jesus_horario: 
+  - text: "horario Corazón de Jesús/"
 
-  utter_corazon_jesus:
-  - text: "Horario de 70005"
+  utter_guesc_horario:
+  - text: "horario GUESC"
+
+  utter_porteño_horario:
+  - text: "horario Porteño"
+
+  utter_encuesta:
+  - text: "https://forms.gle/phAArJXB1NxGg7W89"
 
 session_config:
   session_expiration_time: 60
