@@ -1,110 +1,106 @@
-version: "3.1"
-
+version: '3.1'
 nlu:
 - intent: saludo
-  examples: |
-    - buenas tardes
+  examples: '- buenas tardes
+
     - buenos dias
+
     - hey
+
     - ayuda
+
     - hola
+
     - necesito ayuda
+
     - Hola
+
     - como estas
+
     - ayudame
 
-
+    '
 - intent: adios
-  examples: |
-    - gracias
-    - adios
-    - eso es todo
-    - hasta luego
-    - chao
-
+  examples: "- gracias\n- adios\n- eso es todo\n- hasta luego\n- chao\n    - quiero\
+    \ comer\n    - holaa\n"
 - intent: encuesta
-  examples: |
-    - encuesta
-    - quiero hacer una encuesta
-    - quiero responder una encuesta
-    - quiero contestar
-    - quiero ayudar a hacer el chatbot
-    - quiero ayudar
-    - dame la encuesta
-    - dame el enlace de la encueesta
-    - Enueesta
-
+  examples: "- encuesta\n- quiero hacer una encuesta\n- quiero responder una encuesta\n\
+    - quiero contestar\n- quiero ayudar a hacer el chatbot\n- quiero ayudar\n- dame\
+    \ la encuesta\n- dame el enlace de la encueesta\n- Enueesta\n    - como te llamas\n\
+    \    - el backend no me responde por que?\n"
 - intent: afirmar
-  examples: |
-    - si
-    - correcto
-    - por supuesto
-    - claro
-    - claro que si
-    - correcto
-
+  examples: "- si\n- correcto\n- por supuesto\n- claro\n- claro que si\n- correcto\n\
+    \    - hola como estasasdf\n"
 - intent: denegar
-  examples: |
-    - no
+  examples: '- no
+
     - NO
+
     - incorrecto
+
     - mal
+
     - te equivocaste
 
-
-
+    '
 - intent: bot_challenge
-  examples: |
-    - que eres?
+  examples: '- que eres?
+
     - eres un robot?
+
     - con quien hablo?
+
     - con quien estoy hablando?
 
+    '
 - intent: feriados
-  examples: |
-    - que dias son feriado
-    - cuando no hay clases
-    - feriados
-    - dime los feriados
-    - dime cuando no hay clases
-    - quiero saber cuando no habra clases
-    - que dias son libres
-
+  examples: "- que dias son feriado\n- cuando no hay clases\n- feriados\n- dime los\
+    \ feriados\n- dime cuando no hay clases\n- quiero saber cuando no habra clases\n\
+    - que dias son libres\n    - cuando es el feriado?\n"
 - intent: justificacion_falta
-  examples: |
-    - Como justifico una falta
+  examples: '- Como justifico una falta
+
     - quiero faltar
+
     - debo faltar
+
     - voy a faltar
 
+    '
 - intent: horario
-  examples: |
-    - Necesito el horario
-    - dame el horario
-    - horario
-    - quiero saber el horario
-    
+  examples: "- Necesito el horario\n- dame el horario\n- horario\n- quiero saber el\
+    \ horario\n    - quiero saber mi horario\n"
 - intent: guesc
-  examples: |
-    - guesc
+  examples: '- guesc
+
     - la unidad
+
     - unidad
+
     - gran unidad escolar san carlos
+
     - san carlos
+
     - carlos
+
     - gran unidad
 
+    '
 - intent: corazon_jesus
-  examples: | 
-    - Corazon de Jesus
+  examples: '- Corazon de Jesus
+
     - corazon jesus
+
     - 70005
+
     - quistuñas
 
+    '
 - intent: portenio
-  examples: |
-    - Porteño
-    - portenio
-    - colegio porteño
-    - escuela porteño
+  examples: '- Porteño
 
+    - portenio
+
+    - colegio porteño
+
+    - escuela porteño'

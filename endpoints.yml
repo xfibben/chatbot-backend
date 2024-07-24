@@ -21,6 +21,13 @@ action_endpoint:
 tracker_store:
   type: "in_memory"
 
+  tracker_store:
+    type: SQL
+    dialect: "postgresql"
+    url: "postgresql://postgres:root@localhost:5432/chatbot"
+
+
+
 #tracker_store:
 #    type: redis
 #    url: <host of the redis instance, e.g. localhost>
