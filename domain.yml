@@ -18,7 +18,6 @@ responses:
   utter_saludo:
   - text: "Hola como puedo ayudarte?"
 
-
   utter_adios:
   - text: "Espero haberte ayudado."
 
@@ -26,7 +25,7 @@ responses:
   - text: "Soy Roboto"
 
   utter_feriados:
-  - text: "los dias feriados seran: Lunes 09 Octubre: Día no laborable para el sector público
+  - text: "Los días feriados serán: Lunes 09 Octubre: Día no laborable para el sector público
 Miércoles 01 Noviembre: Día de Todos los Santos
 Jueves 07 Diciembre: Día no laborable para el sector público
 Viernes 08 Diciembre: Día de la Inmaculada Concepción
@@ -37,10 +36,11 @@ Lunes 01 Enero: Año Nuevo
 Martes 02 Enero: Día no laborable para el sector público"
 
   utter_justificacion_falta:
-  - text: "llena el archivo con tus datos y enviacelo a tu asesor o docente."
+  - text: "Llena el archivo con tus datos y envíalo a tu asesor o docente."
+  - text: "https://docs.google.com/document/d/1IG9F7dLKJBATy9PTcLmfVENnYDIfLz9X/edit?usp=drive_link&ouid=102177048983870945111&rtpof=true&sd=true"
 
   utter_horario:
-  - text: "escoge tu colegio"
+  - text: "Escoge tu colegio"
     buttons: 
     - title: "70005"
       payload: "/corazon_jesus_horario"
@@ -50,16 +50,22 @@ Martes 02 Enero: Día no laborable para el sector público"
       payload: "/porteño_horario"
 
   utter_corazon_jesus_horario: 
-  - text: "horario Corazón de Jesús/"
+  - custom:
+      text: "Este es el horario del Corazón de Jesús."
+      image: "https://th.bing.com/th/id/OIP.L-cxQOePWk3JpN3Kh6PhHgHaFP?rs=1&pid=ImgDetMain"
 
   utter_guesc_horario:
-  - text: "horario GUESC"
+  - custom:
+      text: "Este es el horario de GUESC."
+      image: "https://th.bing.com/th/id/OIP.L-cxQOePWk3JpN3Kh6PhHgHaFP?rs=1&pid=ImgDetMain"
 
   utter_porteño_horario:
-  - text: "horario Porteño"
+  - custom:
+      text: "Este es el horario de Porteño."
+      image: "https://th.bing.com/th/id/OIP.L-cxQOePWk3JpN3Kh6PhHgHaFP?rs=1&pid=ImgDetMain"
 
   utter_encuesta:
-  - text: "https://forms.gle/phAArJXB1NxGg7W89"
+  - text: "https://forms.gle/BNTk2a2PGAUUrm1x9"
 
 session_config:
   session_expiration_time: 60
