@@ -1,106 +1,281 @@
 version: '3.1'
 nlu:
 - intent: saludo
-  examples: '- buenas tardes
-
+  examples: |
+    - buenas tardes
     - buenos dias
-
     - hey
-
     - ayuda
-
     - hola
-
     - necesito ayuda
-
     - Hola
-
     - como estas
-
     - ayudame
+    - qué tal
+    - hola bot
+    - saludos
+    - holaaa
+    - alguien ahí?
+    - buenos días
+    - buen día
+    - hola, cómo estás?
+    - hola, qué tal?
 
-    '
 - intent: adios
-  examples: "- gracias\n- adios\n- eso es todo\n- hasta luego\n- chao\n    - quiero\
-    \ comer\n    - holaa\n"
+  examples: |
+    - gracias
+    - adios
+    - eso es todo
+    - hasta luego
+    - chao
+    - quiero comer
+    - holaa
+    - nos vemos
+    - me despido
+    - chau
+    - bye
+    - hasta la próxima
+    - gracias, adiós
+    - hasta la vista
+
 - intent: encuesta
-  examples: "- encuesta\n- quiero hacer una encuesta\n- quiero responder una encuesta\n\
-    - quiero contestar\n- quiero ayudar a hacer el chatbot\n- quiero ayudar\n- dame\
-    \ la encuesta\n- dame el enlace de la encueesta\n- Enueesta\n    - como te llamas\n\
-    \    - el backend no me responde por que?\n"
+  examples: |
+    - encuesta
+    - quiero hacer una encuesta
+    - quiero responder una encuesta
+    - quiero contestar
+    - quiero ayudar a hacer el chatbot
+    - quiero ayudar
+    - dame la encuesta
+    - dame el enlace de la encuesta
+    - Encuesta
+    - tienes alguna encuesta?
+    - cómo puedo ayudar con la encuesta?
+    - me pasas la encuesta?
+    - dónde está la encuesta?
+    - ¿puedo contestar la encuesta?
+
 - intent: afirmar
-  examples: "- si\n- correcto\n- por supuesto\n- claro\n- claro que si\n- correcto\n\
-    \    - hola como estasasdf\n"
+  examples: |
+    - si
+    - correcto
+    - por supuesto
+    - claro
+    - claro que si
+    - correcto
+    - exacto
+    - así es
+    - afirmativo
+    - obviamente
+    - seguro
+    - claro que sí
+    - de acuerdo
+    - sin duda
+
 - intent: denegar
-  examples: '- no
-
+  examples: |
+    - no
     - NO
-
     - incorrecto
-
     - mal
-
     - te equivocaste
+    - en absoluto
+    - para nada
+    - negativo
+    - claro que no
+    - nada que ver
+    - no es así
+    - de ninguna manera
+    - falso
+    - no es cierto
 
-    '
 - intent: bot_challenge
-  examples: '- que eres?
-
+  examples: |
+    - que eres?
     - eres un robot?
-
     - con quien hablo?
-
     - con quien estoy hablando?
+    - eres humano?
+    - eres real?
+    - eres un chatbot?
+    - eres inteligente?
+    - eres una máquina?
+    - ¿tienes nombre?
+    - ¿quién eres?
+    - ¿qué eres?
+    - ¿eres una persona?
 
-    '
 - intent: feriados
-  examples: "- que dias son feriado\n- cuando no hay clases\n- feriados\n- dime los\
-    \ feriados\n- dime cuando no hay clases\n- quiero saber cuando no habra clases\n\
-    - que dias son libres\n    - cuando es el feriado?\n"
+  examples: |
+    - que dias son feriado
+    - cuando no hay clases
+    - feriados
+    - dime los feriados
+    - dime cuando no hay clases
+    - quiero saber cuando no habra clases
+    - que dias son libres
+    - cuando es el feriado?
+    - cuáles son los próximos feriados?
+    - dime los días festivos
+    - cuándo no trabajamos?
+    - cuándo es el próximo feriado?
+    - hay algún feriado pronto?
+    - cuándo es el próximo día libre?
+    - dime los días de descanso
+
 - intent: justificacion_falta
-  examples: '- Como justifico una falta
-
+  examples: |
+    - Como justifico una falta
     - quiero faltar
-
     - debo faltar
-
     - voy a faltar
+    - cómo justifico una ausencia
+    - cómo hago para faltar
+    - no podré asistir, ¿cómo lo justifico?
+    - quiero justificar mi falta
+    - ¿puedo faltar?
+    - ¿cómo justifico una falta de asistencia?
+    - quiero ausentarme, ¿cómo lo hago?
+    - no asistiré, ¿qué debo hacer?
+    - ¿cómo hago para justificar mi ausencia?
 
-    '
 - intent: horario
-  examples: "- Necesito el horario\n- dame el horario\n- horario\n- quiero saber el\
-    \ horario\n    - quiero saber mi horario\n"
+  examples: |
+    - Necesito el horario
+    - dame el horario
+    - horario
+    - quiero saber el horario
+    - quiero saber mi horario
+    - ¿cuál es el horario?
+    - dime el horario
+    - ¿a qué hora tengo clases?
+    - pásame el horario
+    - ¿cómo es el horario de clases?
+    - necesito conocer el horario
+    - ¿cuál es el horario de hoy?
+    - horario de clases, por favor
+    - necesito el horario de esta semana
+
 - intent: guesc
-  examples: '- guesc
-
+  examples: |
+    - guesc
     - la unidad
-
     - unidad
-
     - gran unidad escolar san carlos
-
     - san carlos
-
     - carlos
-
     - gran unidad
+    - colegio san carlos
+    - escuela san carlos
+    - unidad san carlos
+    - la gran unidad
+    - colegio GUESC
+    - institución GUESC
+    - la gran unidad escolar
 
-    '
 - intent: corazon_jesus
-  examples: '- Corazon de Jesus
-
+  examples: |
+    - Corazon de Jesus
     - corazon jesus
-
     - 70005
-
     - quistuñas
+    - colegio corazón de jesús
+    - escuela corazón de jesús
+    - corazón de jesús
+    - el colegio 70005
+    - escuela 70005
+    - el corazón de jesús
+    - la escuela corazón de jesús
+    - colegio quistuñas
+    - el colegio quistuñas
 
-    '
 - intent: portenio
-  examples: '- Porteño
-
+  examples: |
+    - Porteño
     - portenio
-
     - colegio porteño
+    - escuela porteño
+    - el colegio porteño
+    - el portenio
+    - la escuela porteño
+    - el portenio de puno
+    - el colegio porteño de puno
+    - escuela porteña
+    - colegio porteño de puno
+    - porteño de puno
 
-    - escuela porteño'
+- intent: preguntas_puno
+  examples: |
+    - Cuéntame algo sobre Puno
+    - ¿Qué es Puno?
+    - ¿Qué sabes sobre Puno?
+    - Quiero aprender sobre Puno
+    - Dime algo interesante sobre Puno
+    - ¿Dónde está Puno?
+    - ¿Qué hay de especial en Puno?
+    - Información sobre Puno
+    - Háblame de Puno
+    - ¿Qué tradiciones hay en Puno?
+    - ¿Qué festividades se celebran en Puno?
+    - ¿Qué es la Virgen de la Candelaria?
+    - ¿Qué puedo ver en Puno?
+
+- intent: preguntas_colegio
+  examples: |
+    - Cuéntame sobre el colegio 70005
+    - ¿Qué sabes del colegio Corazón de Jesús?
+    - Dime algo sobre el colegio Corazón de Jesús
+    - Información sobre el colegio 70005
+    - ¿Qué historia tiene el colegio Corazón de Jesús?
+    - ¿Cuándo se fundó el colegio 70005?
+    - Háblame del colegio Corazón de Jesús
+    - ¿Qué tan antiguo es el colegio 70005?
+    - Dime más sobre el colegio 70005
+    - ¿Por qué es conocido el colegio Corazón de Jesús?
+
+- intent: chistes
+  examples: |
+    - Cuéntame un chiste
+    - Dime un chiste
+    - Quiero escuchar un chiste
+    - Tienes algún chiste?
+    - Hazme reír
+    - ¿Sabes algún chiste?
+    - Dime algo gracioso
+    - Quiero reírme, cuéntame un chiste
+
+- intent: curiosidades
+  examples: |
+    - Cuéntame una curiosidad
+    - Dime algo curioso
+    - Quiero saber algo interesante
+    - ¿Sabes alguna curiosidad?
+    - Dame un dato curioso
+    - ¿Qué curiosidades tienes?
+    - Háblame de alguna curiosidad
+    - Sorpréndeme con un dato curioso
+
+- intent: formulas_matematicas
+  examples: |
+    - Dime una fórmula matemática
+    - ¿Cuál es la fórmula del área de un círculo?
+    - Explícame una fórmula de matemáticas
+    - Quiero aprender una fórmula matemática
+    - ¿Sabes alguna fórmula matemática?
+    - Dime una fórmula de geometría
+    - Quiero recordar una fórmula matemática
+    - Dame una fórmula útil en matemáticas
+
+- intent: historia_peru
+  examples: |
+    - Cuéntame sobre la historia de Perú
+    - Quiero aprender historia de Perú
+    - Dime algo sobre la historia peruana
+    - ¿Qué sabes de la historia de Perú?
+    - Háblame de la historia del Perú
+    - Quiero saber más sobre los Incas
+    - ¿Cómo fue la historia de Perú?
+    - ¿Qué me puedes contar sobre la historia de Perú?
+    - Explícame la historia de Perú
+    - ¿Cómo fue la civilización Inca?
+

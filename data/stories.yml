@@ -42,3 +42,33 @@ stories:
   steps:
   - intent: encuesta
   - action: utter_encuesta
+
+- story: preguntas sobre Puno
+  steps:
+  - intent: preguntas_puno
+  - action: utter_preguntas_puno
+
+- story: preguntas sobre el colegio
+  steps:
+  - intent: preguntas_colegio
+  - action: utter_preguntas_colegio
+
+- story: contar chiste
+  steps:
+  - intent: chistes
+  - action: utter_chistes
+
+- story: compartir curiosidad
+  steps:
+  - intent: curiosidades
+  - action: utter_curiosidades
+
+- story: formulas matemáticas
+  steps:
+  - intent: formulas_matematicas
+  - action: utter_formulas_matematicas
+
+- story: historia del Perú
+  steps:
+  - intent: historia_peru
+  - action: utter_historia_peru

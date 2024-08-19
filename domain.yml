@@ -13,6 +13,12 @@ intents:
   - guesc
   - portenio
   - encuesta
+  - preguntas_puno
+  - preguntas_colegio
+  - chistes
+  - curiosidades
+  - formulas_matematicas
+  - historia_peru
 
 responses:
   utter_saludo:
@@ -68,6 +74,25 @@ Martes 02 Enero: Día no laborable para el sector público"
 
   utter_encuesta:
   - text: Claro me ayudarias a mejorar muchisimo si llenas la encuesta "https://forms.gle/BNTk2a2PGAUUrm1x9"
+
+  utter_preguntas_puno:
+  - text: "Puno es conocido como la capital folclórica de Perú y es el hogar del famoso Lago Titicaca, el lago navegable más alto del mundo. ¿Sabías que aquí se celebra la festividad de la Virgen de la Candelaria, declarada Patrimonio Cultural Inmaterial de la Humanidad por la UNESCO? Puedes aprender más sobre esta celebración en el siguiente enlace: https://es.unesco.org/"
+
+  utter_preguntas_colegio:
+  - text: "El colegio 70005 Corazón de Jesús es una institución con una historia rica en tradiciones y logros académicos. Fundado hace más de 50 años, este colegio ha sido un pilar en la educación de la región de Puno, formando generaciones de líderes y profesionales."
+
+  utter_chistes:
+  - text: "¿Por qué el estudiante llevaba una escalera a la escuela? ¡Porque quería ir a la clase más alta!"
+
+  utter_curiosidades:
+  - text: "¿Sabías que Puno es conocido no solo por el Lago Titicaca, sino también por las chullpas de Sillustani? Son torres funerarias preincaicas que se elevan hacia el cielo, ofreciendo una vista impresionante del altiplano andino. ¡Es un lugar lleno de misterio y belleza! Más sobre Sillustani aquí: https://www.peru.travel/"
+
+  utter_formulas_matematicas:
+  - text: "La fórmula del área de un círculo es A = πr², donde 'r' es el radio del círculo. ¡Recuerda que π (pi) es aproximadamente 3.1416! Si quieres explorar más sobre matemáticas, visita https://www.khanacademy.org/"
+
+  utter_historia_peru:
+  - text: "Perú es la cuna de la civilización Inca, que fue la cultura más poderosa de Sudamérica antes de la llegada de los españoles. Machu Picchu, una de las Siete Maravillas del Mundo, es un testimonio del ingenio y la habilidad de los incas. ¿Quieres saber más sobre la historia de Perú? Puedes leer más en https://www.britannica.com/place/Peru/History"
+
 
 session_config:
   session_expiration_time: 60
