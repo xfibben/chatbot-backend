@@ -36,8 +36,10 @@ Lunes 01 Enero: Año Nuevo
 Martes 02 Enero: Día no laborable para el sector público"
 
   utter_justificacion_falta:
-  - text: "Llena el archivo con tus datos y envíalo a tu asesor o docente."
-  - text: "https://docs.google.com/document/d/1IG9F7dLKJBATy9PTcLmfVENnYDIfLz9X/edit?usp=drive_link&ouid=102177048983870945111&rtpof=true&sd=true"
+  - text: |
+      Llena el archivo con tus datos y envíalo a tu asesor o docente.
+      [Formulario de Justificación](https://docs.google.com/document/d/1IG9F7dLKJBATy9PTcLmfVENnYDIfLz9X/edit?usp=drive_link&ouid=102177048983870945111&rtpof=true&sd=true)
+
 
   utter_horario:
   - text: "Escoge tu colegio"
@@ -65,7 +67,7 @@ Martes 02 Enero: Día no laborable para el sector público"
       image: "https://th.bing.com/th/id/OIP.L-cxQOePWk3JpN3Kh6PhHgHaFP?rs=1&pid=ImgDetMain"
 
   utter_encuesta:
-  - text: "https://forms.gle/BNTk2a2PGAUUrm1x9"
+  - text: Claro me ayudarias a mejorar muchisimo si llenas la encuesta "https://forms.gle/BNTk2a2PGAUUrm1x9"
 
 session_config:
   session_expiration_time: 60
